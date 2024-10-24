@@ -1,0 +1,1256 @@
+WHO ATC 5 Code,Name in DA,1. Kvartal,2. Kvartal
+A01AA,Midler mod caries,29372,26987
+A01AA01,Natriumfluorid,29372,26987
+A01AB,Antiinfectiva til lokal brug i mundhulen,7605,7726
+A01AB09,Miconazol,7605,7726
+A01AD02,Benzydamin,0,0
+A02BB,Prostaglandiner,14,12
+A02BB01,Misoprostol,14,12
+A02BC,Protonpumpe-hæmmere,361481,346301
+A02BC01,Omeprazol,69527,65378
+A02BC02,Pantoprazol,184040,181833
+A02BC03,Lansoprazol,86097,78606
+A02BC04,Rabeprazol,90,109
+A02BC05,Esomeprazol,25568,23877
+A03AA,Synt. anticholin.estere med tertiære aminogrupper,2596,2710
+A03AA04,Mebeverin,2596,2710
+A03AB,"Synt. antikolinergika, kvarternære ammoniumforb.",1146,1365
+A03AB02,Glycopyrron,172,233
+A03AB05,Propanthelin,974,1132
+A03B,"Belladonna og derivater, usammensatte præparater",2505,1932
+A03BA,"Belladonna-alkaloider, tertiære aminer",395,522
+A03BA01,Atropin,137,138
+A03BA03,Hyoscyamin,258,384
+A03BB,Belladonna-alkal.semisynt.kvartern. ammoniumforb.,2112,1415
+A03BB01,Butylscopolamin,2112,1415
+A03F,Propulsives,16127,14617
+A03FA,Propulsives,16127,14617
+A03FA01,Metoclopramid,12896,11531
+A03FA03,Domperidon,3381,3252
+A04A,Antiemetika og midler mod kvalme,6243,5444
+A04AA,Serotonin (5ht3) antagonister,5089,4474
+A04AA01,Ondansetron,5089,4474
+A04AD,Andre antiemetika,1307,1107
+A04AD01,Scopolamin,517,424
+A04AD10,Dronabinol,652,561
+A04AD12,Aprepitant,139,123
+A05A,Galdeterapi,2043,1928
+A05AA,Galdesyrer og derivater,2043,1928
+A05AA02,Ursodeoxycholsyre,2043,1928
+A06AB58,"Natriumpicosulfat, kombinationspræparater",566,482
+A06AC,Volumendannende laksantia,75,102
+A06AC51,"Ispaghula, kombinationspræparater",75,102
+A06AD**,(Ufuldstændig ATC-kode),1750,1363
+A06AD65,"Macrogol, kombinationer",0,0
+A06AG01,Natriumphosphat,99,106
+A06AG02,Bisacodyl,354,372
+A06AH,Perifere opioidreceptor antagonister,195,188
+A06AH01,Methylnaltrexonbromid,8,6
+A06AH03,Naloxegol,190,182
+A06AX04,Linaclotid,369,352
+A06AX05,Prucaloprid,674,690
+A07A,Intestinale antiinfectiva,8691,8502
+A07AA,Antibiotika,8691,8502
+A07AA02,Nystatin,8489,8353
+A07AA09,Vancomycin,62,40
+A07AA11,Rifaximin,141,111
+A07DA02,Opium,221,213
+A07E,Intestinale antiinflammatorika,22665,20788
+A07EA,Corticosteroider med lokal virkning,3614,3541
+A07EA06,Budesonid,3614,3541
+A07EB,"Antiallergika, excl. corticosteroider",18,27
+A07EB01,Cromoglicinsyre,18,27
+A07EC,Aminosalicylsyre og analoger,19343,17532
+A07EC01,Sulfasalazin,6141,4619
+A07EC02,Mesalazin,13182,12879
+A07EC03,Olsalazin,96,99
+A07EC04,Balsalazid,66,59
+A08A,"Midler mod fedme, excl. diætmidler",2570,2535
+A08AA,Centralt virkende anoreksika,1645,1596
+A08AA03,Amfepramon,1211,1174
+A08AA62,Bupropion og naltrexon,439,426
+A08AB,Midler mod fedme med perifer virkning,962,957
+A08AB01,Orlistat,962,957
+A09A,"Digestiva, incl. enzymer",4491,4430
+A09AA,Enzympræparater,4491,4430
+A09AA02,"Multienzymer (lipase, protease etc.)",4491,4430
+A10A,Insuliner og analoger,72504,69652
+A10AB,"Insuliner og analoger til injektion, hurtigtvirkende",34389,31698
+A10AB01,Insulin (human),2296,2053
+A10AB04,Insulin lispro,479,454
+A10AB05,Insulin aspart,31179,28764
+A10AB06,Insulin glulisin,585,553
+A10AC,"Insuliner og analoger til injektion, middellang virkningstid",6175,5597
+A10AC01,Insulin (human),6175,5597
+A10AD,"Insuliner og analoger t.inj., middel-/langtidsvirk. komb.m. hurtigtvirk",5061,4716
+A10AD01,Insulin (human),196,193
+A10AD04,Insulin lispro,13,12
+A10AD05,Insulin aspart,4833,4493
+A10AD06,Insulin degludec og insulin aspart,19,19
+A10AE,"Insuliner og analoger til injektion, langtidsvirkende",52368,50118
+A10AE04,Insulin glargin,25945,25209
+A10AE05,Insulin detemir,4009,3573
+A10AE06,Insulin degludec,21883,20769
+A10AE54,Insulin glargin og lixisenatid,11,7
+A10AE56,Insulin degludec og liraglutid,850,813
+A10B,"Blod-glucose sænkende midler, exkl. insuliner",194071,192047
+A10BA,Biguanider,150621,147706
+A10BA02,Metformin,150621,147706
+A10BB,Sulfonylcarbamid,12663,11767
+A10BB01,Glibenclamid,199,174
+A10BB07,Glipizid,162,147
+A10BB09,Gliclazid,1742,1632
+A10BB12,Glimepirid,10566,9822
+A10BD,Komb. af orale blod-glucose sænkende midler,19416,18658
+A10BD07,Metformin og sitagliptin,8787,8424
+A10BD08,Metformin og vildagliptin,5839,5455
+A10BD10,Metformin og saxagliptin,15,16
+A10BD11,Metformin og linagliptin,91,91
+A10BD13,Metformin og alogliptin,342,317
+A10BD15,Metformin og dapagliflozin,1281,1307
+A10BD16,Metformin og canagliflozin,38,45
+A10BD19,Linagliptin og empagliflozin,23,21
+A10BD20,Metformin og empagliflozin,2981,2967
+A10BD21,Saxagliptin og dapagliflozin,47,41
+A10BD23,Metformin og ertugliflozin,9,5
+A10BD24,Sitagliptin og ertugliflozin,8,7
+A10BG,Thiazolindioner,64,54
+A10BG03,Pioglitazon,64,54
+A10BH,Dipeptidylpeptidase 4 (dpp-4) hæmmere,17549,16695
+A10BH01,Sitagliptin,10106,9617
+A10BH02,Vildagliptin,1655,1626
+A10BH03,Saxagliptin,395,336
+A10BH04,Alogliptin,542,501
+A10BH05,Linagliptin,4881,4642
+A10BJ,Glucagon-lignende peptid-1 receptor (glp-1) analog,38001,40118
+A10BJ01,Exenatid,104,95
+A10BJ02,Liraglutid,14702,14163
+A10BJ03,Lixisenatid,23,21
+A10BJ05,Dulaglutid,1188,1200
+A10BJ06,Semaglutid,22658,25232
+A10BK,Natrium-glucose co-transporter 2 (sglt2) inhibitorer,29854,30379
+A10BK01,Dapagliflozin,9620,9777
+A10BK02,Canagliflozin,1157,1195
+A10BK03,Empagliflozin,19095,19428
+A10BK04,Ertugliflozin,24,25
+A10BX,"Andre  blod-glucose sænkende midler, ekskl. insuliner",302,289
+A10BX02,Repaglinid,302,289
+A11C,"Vitamin a og d, incl. kombinationer af disse",3309,3054
+A11CC,Vitamin d og analoger,3309,3054
+A11CC03,Alfacalcidol,2334,2225
+A11CC05,Colecalciferol,977,835
+A11E,"Vitamin b-complex, incl. kombinationer",1751,1727
+A11E*,n/a,1751,1727
+A11E***,(Ufuldstændig ATC-kode),1751,1727
+A11H,Andre usammensatte vitaminpræparater,87,82
+A11HA,Andre usammensatte vitaminpræparater,87,82
+A11HA02,Pyridoxin (vitamin b6),50,49
+A11HA04,Riboflavin (vitamin b2),8,8
+A11HA05,Biotin,23,18
+A11HA08,Tocofersolan,6,7
+A12B,Kalium,124739,122214
+A12BA,Kalium,124739,122214
+A12BA01,Kaliumchlorid,124736,122208
+A12CA,Natrium,18,21
+A12CA01,Natriumchlorid,18,21
+A16A,Andre midler til fordøjelsesorganer og stofskifte,73,52
+A16AA,Aminosyrer og derivater,19,17
+A16AA04,Mercaptamin,6,6
+A16AA06,Betain,13,11
+A16AX,Div. midler til fordøjelsesorganer og stofskifte,54,35
+A16AX07,Sapropterin,49,33
+B01A,Antithrombosemidler,428095,404885
+B01AA,Vitamin k antagonister,39581,36560
+B01AA03,Warfarin,39041,36072
+B01AA04,Phenprocoumon,540,489
+B01AB,Heparin-gruppen,1445,1237
+B01AB01,Heparin,16,6
+B01AB04,Dalteparin,895,759
+B01AB05,Enoxaparin,245,234
+B01AB10,Tinzaparin,307,243
+B01AC,Blodplade-aggregationshæmmere excl. heparin,279525,261107
+B01AC04,Clopidogrel,102024,96002
+B01AC06,Acetylsalicylsyre,180770,167765
+B01AC07,Dipyridamol,4428,4259
+B01AC22,Prasugrel,372,533
+B01AC24,Ticagrelor,4941,4578
+B01AC30,Kombinationer,1338,1080
+B01AE,Direkte virkende thrombin-inhibitorer,13697,12794
+B01AE07,Dabigatranetexilat,13697,12794
+B01AF,Direkte faktor xa-hæmmere,101337,99890
+B01AF01,Rivaroxaban,49881,48118
+B01AF02,Apixaban,47060,47458
+B01AF03,Edoxaban,4756,4640
+B02A,Antifibrinolytika,2915,2740
+B02AA,Aminosyrer,2915,2740
+B02AA02,Tranexamsyre,2915,2740
+B02B,Vitamin k og andre hæmostatika,188,38
+B02BA,Vitamin k,188,38
+B02BA01,Phytomenadion,188,38
+B03A,Jernpræparater,11938,12269
+B03AA,"Jern(ii), orale midler",11923,12252
+B03AA07,Ferrosulfat,11923,12252
+B03AC,"Jern, parenterale midler",13,13
+B03AC**,(Ufuldstændig ATC-kode),13,13
+B03B,Vitamin b12 og folsyre,71365,67477
+B03BA,Vitamin b12 (cyanocobalamin og derivater),58127,55470
+B03BA01,Cyanocobalamin,47093,45139
+B03BA03,Hydroxocobalamin,11245,10477
+B03BB,Folsyre og derivater,15125,13835
+B03BB01,Folsyre,15125,13835
+B05B,Infusionsvæsker,354,345
+B05BA,Opløsninger til parenteral ernæring,35,34
+B05BA03,Kulhydrater,30,30
+B05BB,Opløsninger med virkning på elektrolytbalancen,329,322
+B05BB01,Elektrolytter,325,315
+B05BB02,Elektrolytter med kulhydrater,6,10
+B05BC,Opløsninger til osmotisk diurese,0,0
+B05BC01,Mannitol,0,0
+B05X,Infusionskoncentrater,11,7
+B05XA,Elektrolyt-opløsninger,10,6
+C01A,Hjerteglycosider,23944,23044
+C01AA,Digitalis-glycosider,23944,23044
+C01AA05,Digoxin,23944,23044
+C01B,"Antiarytmika, klasse i og iii",7169,6951
+C01BC,"Antiarytmika, klasse i c",2500,2332
+C01BC03,Propafenon,284,268
+C01BC04,Flecainid,2216,2064
+C01BD,"Antiarytmika, klasse iii",4682,4632
+C01BD01,Amiodaron,4547,4515
+C01BD07,Dronedaron,135,117
+C01C,Hjertestimulerende midler excl. hjerteglycosider,2402,4840
+C01CA,Adrenerge og dopaminerge midler,2402,4840
+C01CA03,Noradrenalin,0,0
+C01CA06,Phenylephrin,0,0
+C01CA07,Dobutamin,0,0
+C01CA17,Midodrin,225,200
+C01CA24,Adrenalin,2177,4640
+C01CA26,Efedrin,0,0
+C01DA08,Isosorbiddinitrat,1047,987
+C01DA14,Isosorbidmononitrat,20494,19617
+C01DX,Andre vasodilatorer anvendt ved hjertesygdom,827,798
+C01DX16,Nicorandil,827,798
+C01E,Andre midler til hjerteterapi,1719,1708
+C01EB,Andre hjertemidler,1719,1708
+C01EB15,Trimetazidin,624,601
+C01EB17,Ivabradin,1103,1115
+C02A,"Antiadrenerge midler, centralt virkende",5588,5368
+C02AC,Imidazolin-receptor agonister,5588,5368
+C02AC02,Guanfacin,480,490
+C02AC05,Moxonidin,5108,4878
+C02C,"Antiadrenerge midler, perifert virkende",8616,8326
+C02CA,Alfa-adrenoceptor blokerende midler,8616,8326
+C02CA04,Doxazosin,8616,8326
+C03A,"Low-ceiling diuretika, thiazider",162340,153065
+C03AA,"Thiazider, usammensatte præparater",1116,1051
+C03AA03,Hydrochlorthiazid,1116,1051
+C03AB,Thiazider og kalium i kombination,161261,152048
+C03AB01,Bendroflumethiazid og kalium,161261,152048
+C03B,"Low-ceiling diuretika, excl. thiazider",2088,1961
+C03BA,"Sulfonamider, usammensatte",2088,1961
+C03BA11,Indapamid,2088,1941
+C03C,High-ceiling diuretika,110644,108884
+C03CA,"Sulfonamider, usammensatte",110644,108884
+C03CA01,Furosemid,108007,106288
+C03CA02,Bumetanid,2845,2842
+C03D,Aldosteronantagonister og andre kaliumbesparende midler,44428,43182
+C03DA,Aldosteron-antagonister,44414,43164
+C03DA01,Spironolacton,41130,39882
+C03DA04,Eplerenon,3364,3374
+C03DB,Andre kaliumbesparende midler,14,19
+C03DB01,Amilorid,14,19
+C03E,Diuretika og kaliumbesparende midler i komb.,4478,4310
+C03EA,Low-ceiling diuretika og kaliumbesparende midler,4054,3938
+C03EA01,Hydrochlorthiazid og kaliumbesparende midler,4054,3938
+C03EB,High-ceiling diuretika og kaliumbesparende midler,433,380
+C03EB01,Furosemid og kaliumbesparende midler,433,380
+C04A,Perifere vasodilatorer,14,11
+C04AD,Purin-derivater,14,11
+C04AD03,Pentoxifyllin,14,11
+C05A,Midler til behandling af hæmorider og analfissurer til lokalt brug,43173,42189
+C05AA,Corticosteroider,42535,41575
+C05AA01,Hydrocortison,3086,4338
+C05AA08,Fluocortolon,40053,38056
+C05AE,Muskelafslappende midler,888,896
+C05AE01,Glyceryltrinitrat,243,215
+C05AE03,Diltiazem,648,694
+C05CA53,"Diosmin, kombinationer",368,372
+C07A,"Beta-blokerende midler, usammensatte",298149,282813
+C07AA,"Beta-blokerende midler, usammensatte, non-selekt.",17249,16030
+C07AA05,Propranolol,16638,15458
+C07AA07,Sotalol,612,574
+C07AB,"Beta-blokerende midler, usammensatte, selektive",252826,239548
+C07AB02,Metoprolol,219981,208879
+C07AB03,Atenolol,10702,9804
+C07AB07,Bisoprolol,18799,17702
+C07AB12,Nebivolol,3728,3518
+C07AG,Alfa- og beta-blokerende midler,29029,28088
+C07AG01,Labetalol,679,637
+C07AG02,Carvedilol,28357,27457
+C07B,Beta-blokerende midler og thiazider,694,689
+C07BB,"Beta-blokkere, selektive, og thiazider",694,689
+C07BB02,Metoprolol og thiazider,694,689
+C07C,Beta-blokkere og andre diuretika,214,171
+C07CB,"Beta-blokkere, selektive, og andre diuretika",214,171
+C07CB03,Atenolol og andre diuretika,214,171
+C08C,Selektive calciumantagonister m. overv. vaskulær effekt,312321,295263
+C08CA,Dihydropyridin-derivater,312321,295263
+C08CA01,Amlodipin,243294,229052
+C08CA02,Felodipin,19251,17913
+C08CA05,Nifedipin,3464,3084
+C08CA06,Nimodipin,11,12
+C08CA09,Lacidipin,508,487
+C08CA13,Lercanidipin,46913,46041
+C08D,Selektive calciumantagonister m. direkte cardiel effekt,14045,13000
+C08DA,Phenylalkylamin-derivater,10884,10054
+C08DA01,Verapamil,10884,10054
+C08DB,Benzothiazepin-derivater,3166,2951
+C08DB01,Diltiazem,3166,2951
+C09A,"Ace-hæmmere, usammensatte",224341,203839
+C09AA,"Ace-hæmmere, usammensatte",224341,203839
+C09AA01,Captopril,646,597
+C09AA02,Enalapril,116496,101728
+C09AA03,Lisinopril,10547,9883
+C09AA04,Perindopril,1272,1198
+C09AA05,Ramipril,88937,84388
+C09AA10,Trandolapril,6647,6208
+C09B,"Ace-hæmmere, kombinationer",40402,37075
+C09BA,Ace-hæmmere og diuretika,40397,37070
+C09BA02,Enalapril og diuretika,29370,26622
+C09BA03,Lisinopril og diuretika,3529,3218
+C09BA04,Perindopril og diuretika,388,356
+C09BA05,Ramipril og diuretika,7113,6876
+C09BB,Ace-hæmmere og calciumantagonister,5,5
+C09BB04,Perindopril og amlodipin,5,5
+C09C,"Angiotensin ii receptor blokkere (arbs), usammensatte",265766,258585
+C09CA,"Angiotensin ii receptor blokkere (arbs), usammensatte",265766,258585
+C09CA01,Losartan,244766,238198
+C09CA03,Valsartan,1264,1155
+C09CA04,Irbesartan,1653,1546
+C09CA06,Candesartan,17146,16660
+C09CA07,Telmisartan,1149,1114
+C09CA08,Olmesartanmedoxomil,124,130
+C09D,"Angiotensin ii receptor blokkere (arbs), kombinationer",74219,68665
+C09DA,Angiotensin ii receptor blokkere (arbs) og diuretika,72016,66380
+C09DA01,Losartan og diuretika,69350,63791
+C09DA03,Valsartan og diuretika,159,166
+C09DA04,Irbesartan og diuretika,563,522
+C09DA06,Candesartan og diuretika,1596,1558
+C09DA07,Telmisartan og diuretika,338,319
+C09DA08,Olmesartanmedoxomil og diuretika,33,37
+C09DB,Angiotensin ii receptor blokkere (arbs) og calciumantagonister (ccb),83,83
+C09DB01,Valsartan og amlodipin,83,83
+C09DX,"Angiotensin ii receptor blokkere (arbs), andre kombinationer",2122,2204
+C09DX01,"Valsartan, amlodipin og hydrochlorthiazid",90,96
+C09DX04,Valsartan og sacubitril,2032,2109
+C09X,Andre midler med virkn. på renin-angiotensin systemet,317,273
+C09XA,Renin-inhibitorer,317,273
+C09XA02,Aliskiren,317,273
+C10A,"Lipid-modificerende midler, usammensatte",529446,499104
+C10AA,Hmg coa reduktase-inhibitorer,515057,484925
+C10AA01,Simvastatin,192437,172544
+C10AA03,Pravastatin,3594,3233
+C10AA04,Fluvastatin,227,211
+C10AA05,Atorvastatin,275146,266167
+C10AA07,Rosuvastatin,45768,44638
+C10AB,Fibrater,3797,3697
+C10AB04,Gemfibrozil,3797,3697
+C10AC,Galdesyrebindende midler,3360,3206
+C10AC01,Colestyramin,2707,2555
+C10AC02,Colestipol,72,63
+C10AC04,Colesevelam,608,610
+C10AD,Nicotinsyre og derivater,274,280
+C10AD06,Acipimox,274,280
+C10AX,Andre lipid-modificerende midler,22581,21759
+C10AX09,Ezetimib,22581,21758
+C10B,"Lipid-modificerende midler, komb.",186,146
+C10BA,"Lipid-modificerende midler, kombinationer",186,146
+C10BA02,Simvastatin og ezetimib,81,71
+C10BA05,Atorvastatin og ezetimibe,105,75
+D01AC08,Ketoconazol,0,0
+D01AC20,Imidazoler/triazoler i kombination med corticosteroider,48965,46239
+D01AE14,Ciclopirox,1282,1385
+D01B,Fungicider til systemisk brug,6096,6578
+D01BA,Fungicider til systemisk brug,6096,6578
+D01BA02,Terbinafin,6096,6578
+D05AX,Andre midler mod psoriasis til udvortes brug,11816,11420
+D05AX02,Calcipotriol,495,563
+D05AX52,"Calcipotriol, kombinationer",11396,10946
+D05B,Midler mod psoriasis til systemisk brug,1407,1354
+D05BB,Retinoider til psoriasisbehandling,1407,1354
+D05BB02,Acitretin,1407,1354
+D06A,Antibiotika til udvortes brug,32233,28715
+D06AA,Tetracyclin og derivater,122,135
+D06AA03,Oxytetracyclin,122,135
+D06AX,Andre antibiotika til udvortes brug,32115,28586
+D06AX01,Fusidinsyre,28714,25714
+D06AX09,Mupirocin,3559,3002
+D06BB03,Aciclovir,0,0
+D06BB04,Podophyllotoxin,2865,2801
+D06BB10,Imiquimod,2668,2178
+D06BB53,"Aciclovir, kombinationer",117,104
+D06BX,Andre kemoterapeutika,11839,9913
+D06BX01,Metronidazol,11718,9913
+D07A,"Corticosteroider til udvortes brug, usammensatte",165627,160678
+D07AA,"Corticosteroider, svagt virk. (gruppe i)",11056,9506
+D07AA02,Hydrocortison,11056,9506
+D07AB,"Corticosteroider, middelstærkt virk. (gruppe ii)",65463,64733
+D07AB02,Hydrocortisonbutyrat,65463,64733
+D07AC,"Corticosteroider, stærkt virk. (gruppe iii)",67029,63338
+D07AC01,Betamethason,30452,27825
+D07AC04,Fluocinolon,1351,1390
+D07AC08,Fluocinonid,120,110
+D07AC13,Mometason,36166,34951
+D07AD,"Corticosteroider, ekstra stærkt virk. (gruppe iv)",34119,34022
+D07AD01,Clobetasol,34119,34022
+D07B,Corticosteroider i kombination med antiseptika,6590,6907
+D07BC,Corticosteroider (gruppe iii) og antiseptika,6590,6907
+D07BC01,Betamethason og antiseptika,6267,6542
+D07BC02,Fluocinolon og antiseptika,329,366
+D07C,Corticosteroider i kombination med antibiotika,23805,22619
+D07CA,Corticosteroider (gruppe i) og antibiotika,5081,4794
+D07CA01,Hydrocortison og antibiotika,5081,4794
+D07CC,Corticosteroider (gruppe iii) og antibiotika,18858,17949
+D07CC01,Betamethason og antibiotika,18858,17949
+D07X,"Corticosteroider, andre kombinationer",4059,3954
+D07XC,"Corticosteroider (gruppe iii), andre kombinationer",4059,3954
+D07XC01,Betamethason,4059,3954
+D10AD,Retinoider til udvortes brug mod acne,10513,8707
+D10AD03,Adapalen,2125,1968
+D10AD53,"Adapalen, kombinationer",8453,6799
+D10AF,Antiinfectiva til acne-behandling,6073,8793
+D10AF01,Clindamycin,18,2217
+D10AF51,"Clindamycin, komb.",6056,6614
+D10AX,Andre midler mod acne til udvortes brug,6239,6140
+D10AX03,Azelainsyre,6239,6140
+D10B,Midler mod acne til systemisk brug,9929,9325
+D10BA,Retinoider til behandling af acne,9929,9325
+D10BA01,Isotretinoin,9929,9325
+D11AH,"Midler til dermatitis, ekskl. corticosteroider",11120,9681
+D11AH01,Tacrolimus,5737,5219
+D11AH02,Pimecrolimus,5424,4498
+D11AH04,Alitretinoin,114,107
+D11AX10,Finasterid,1635,1779
+D11AX16,Eflornithin,120,127
+D11AX18,Diclofenac,493,369
+D11AX21,Brimonidin,317,310
+D11AX22,Ivermectin,5435,5053
+D11AX24,Deoxycholsyre,0,0
+G01AA,Antibiotika,1484,1282
+G01AA10,Clindamycin,1484,1282
+G01AF01,Metronidazol,2495,2230
+G01AF04,Miconazol,2062,1927
+G02A,Uterotonika,0,0
+G02AB,Secale-alkaloider,0,0
+G02AB01,Methylergometrin,0,0
+G02B,Antikonceptionelle midler til lokal applikation,17230,17341
+G02BA,Intrauterine antikonceptionelle midler,14369,14541
+G02BA03,Plast intrauterint indlæg med gestagen,14369,14541
+G02BB,Intravaginale antikonceptionelle midler,2868,2812
+G02BB01,Vaginal ring med gestagen og østrogen,2868,2812
+G02C,Andre gynækologiske midler,967,952
+G02CB,Prolactin inhibitorer,967,952
+G02CB03,Cabergolin,962,944
+G02CB04,Quinagolid,5,8
+G03A,Hormonale antikonceptiva til systemisk brug,261138,252648
+G03AA,"Gestagener og østrogener, faste kombinationer",209084,201014
+G03AA07,Levonorgestrel og ethinylestradiol,190273,183421
+G03AA09,Desogestrel og ethinylestradiol,6123,5702
+G03AA10,Gestoden og ethinylestradiol,5783,5490
+G03AA11,Norgestimat og ethinylestradiol,818,199
+G03AA12,Drospirenon og ethinylestradiol,5255,5066
+G03AA13,Norelgestromin og ethinylestradiol,676,684
+G03AA16,Dienogest og ethinylestradiol,845,873
+G03AB,"Gestagener og østrogener, sekvenspræparater",2782,2592
+G03AB03,Levonorgestrel og ethinylestradiol,1254,1121
+G03AB05,Desogestrel og ethinylestradiol,109,90
+G03AB08,Dienogest og estradiol,1423,1381
+G03AC,Gestagener,50314,50192
+G03AC01,Norethisteron,10706,10685
+G03AC06,Medroxyprogesteron,2136,2076
+G03AC08,Etonogestrel,1051,1004
+G03AC09,Desogestrel,36549,36548
+G03AD,Nødprævention,99,96
+G03AD01,Levonorgestrel,76,64
+G03AD02,Ulipristal,23,33
+G03B,Androgener,3212,3149
+G03BA,3-oxoandrosten(4)-derivater,3212,3149
+G03BA03,Testosteron,3212,3149
+G03CA03,Estradiol,140640,135971
+G03CC,"Østrogener, kombinationer med andre stoffer",32,40
+G03CC07,Konjugerede østrogener og bazedoxifen,32,40
+G03CX,Andre østrogener,941,875
+G03CX01,Tibolon,941,875
+G03D,Gestagener,6709,6276
+G03DA,Pregnen(4)-derivater,6643,6208
+G03DA02,Medroxyprogesteron,2463,2520
+G03DA04,Progesteron,4265,3760
+G03DB,Pregnadien-derivater,67,71
+G03DB08,Dienogest,67,71
+G03F,Gestagener og østrogener i kombination,15561,14214
+G03FA,"Gestagener og østrogener, kombinationer",12009,10913
+G03FA01,Norethisteron og østrogen,11004,10124
+G03FA12,Medroxyprogesteron og østrogen,736,527
+G03FA17,Drospirenon og østrogen,288,275
+G03FB,"Gestagener og østrogener, sekvenspræparater",3648,3327
+G03FB05,Norethisteron og østrogen,3427,3119
+G03FB06,Medroxyprogesteron og østrogen,224,211
+G03G,Gonadotropin og andre ovulationsstimul. midler,6031,5539
+G03GA,Gonadotropiner,6031,5539
+G03GA02,"Gonadotropin, human menopausal",1329,1100
+G03GA04,Urofollitropin,12,39
+G03GA05,Follitropin alfa,2398,2294
+G03GA06,Follitropin beta,164,133
+G03GA07,Lutropin alfa,13,15
+G03GA08,Choriongonadotropin alfa,5528,4963
+G03GA09,Corifollitropin alfa,176,163
+G03GA10,Follitropin delta,102,54
+G03GA30,Kombinationer,571,567
+G03H,Antiandrogener,7827,7514
+G03HA,"Antiandrogener, usammensatte",471,444
+G03HA01,Cyproteron,471,444
+G03HB,Antiandrogener og østrogener,7356,7070
+G03HB01,Cyproteron og østrogen,7356,7070
+G03X,Andre kønshormoner og modulatorer af genitalsyst.,480,367
+G03XB,Progesteron-receptormodulatorer,100,0
+G03XB01,Mifepriston,0,0
+G03XB02,Ulipristal,100,0
+G03XC,Selektive østrogenreceptor-modulatorer,264,243
+G03XC01,Raloxifen,264,243
+G03XX,Andre kønshormoner og modulatorer af genitalsystemet,116,124
+G03XX01,Prasteron,116,124
+G04B,Urologiske midler,98493,94726
+G04BD,Midler mod hyppig urinering og inkontinens,30404,29026
+G04BD04,Oxybutynin,32,44
+G04BD07,Tolterodin,9874,9182
+G04BD08,Solifenacin,4574,4603
+G04BD09,Trospium,1028,943
+G04BD10,Darifenacin,113,98
+G04BD11,Fesoterodin,664,563
+G04BD12,Mirabegron,15266,14584
+G04BE,Midler anvendt ved erektionsforstyrrelser,68911,66409
+G04BE01,Alprostadil,1015,666
+G04BE03,Sildenafil,55659,53485
+G04BE08,Tadalafil,13489,13219
+G04BE09,Vardenafil,509,485
+G04BE10,Avanafil,93,100
+G04BE30,Kombinationer,435,523
+G04C,Midler anvendt ved benign prostatahypertrofi,63186,60109
+G04CA,Alfa-adrenoreceptor antagonister,51677,49041
+G04CA01,Alfuzosin,16195,15129
+G04CA02,Tamsulosin,34537,33028
+G04CA03,Terazosin,542,506
+G04CA53,Tamsulosin og solifenacin,590,551
+G04CB,Testosteron-5-alfa-reduktase inhibitorer,21533,20275
+G04CB01,Finasterid,15762,14992
+G04CB02,Dutasterid,5795,5309
+H01B,Hypofysebaglap-hormoner,4725,4312
+H01BA,Vasopressin og analoger,4723,4312
+H01BA02,Desmopressin,4723,4312
+H01C,Hypothalamus-hormoner,2311,2165
+H01CA,Gonadotropin-releasing hormoner,203,205
+H01CA02,Nafarelin,203,205
+H01CC,Anti gonadotropin releasing hormoner,2138,1974
+H01CC01,Ganirelix,2131,1969
+H01CC02,Cetrorelix,8,6
+H02A,"Corticosteroider til systemisk brug, usammensatte",62199,65283
+H02AA,Mineralocorticoider,492,410
+H02AA02,Fludrocortison,492,410
+H02AB,Glucocorticoider,61951,65047
+H02AB01,Betamethason,2366,5063
+H02AB02,Dexamethason,65,68
+H02AB04,Methylprednisolon,3213,6977
+H02AB06,Prednisolon,52662,49012
+H02AB07,Prednison,1138,1017
+H02AB08,Triamcinolon,1857,2643
+H02AB09,Hydrocortison,1345,1204
+H03A,Thyreoideapræparater,133042,124784
+H03AA,Thyreoideahormoner,133042,124784
+H03AA01,Levothyroxinnatrium,132543,124144
+H03AA02,Liothyroninnatrium,2059,2042
+H03AA05,Thyreoideakirtel-præparater,210,193
+H03B,Antithyreoide præparater,13643,12411
+H03BA,Thiouraciler,1051,1029
+H03BA02,Propylthiouracil,1051,1029
+H03BB,Svovlholdige imidazol-derivater,12653,11445
+H03BB01,Carbimazol,216,200
+H03BB02,Thiamazol,12440,11246
+H04A,Glycogenolytiske hormoner,1057,849
+H04AA,Glycogenolytiske hormoner,1057,849
+H04AA01,Glucagon,1057,849
+H05A,Parathyroidea-hormoner og analoger,1202,1135
+H05AA,Parathyroidea-hormoner og analoger,1202,1135
+H05AA02,Teriparatid,1202,1135
+H05B,Anti-parathyroide midler,253,268
+H05BX,Andre anti-parathyroide midler,253,268
+H05BX01,Cinacalcet,253,268
+J01A,Tetracycliner,22333,25396
+J01AA,Tetracycliner,22333,25396
+J01AA02,Doxycyclin,9541,14333
+J01AA04,Lymecyclin,3901,3535
+J01AA07,Tetracyclin,9020,7669
+J01C,"Beta-lactam antibakterika, penicilliner",367146,270417
+J01CA,Penicilliner med udvidet spektrum,139361,107526
+J01CA01,Ampicillin,1672,1270
+J01CA02,Pivampicillin,4528,3153
+J01CA04,Amoxicillin,49416,24195
+J01CA08,Pivmecillinam,88294,82470
+J01CE,Beta-lactamase sensitive penicilliner,179484,116880
+J01CE02,Phenoxymethylpenicillin,179481,116877
+J01CF,Beta-lactamase resistente penicilliner,48817,48812
+J01CF01,Dicloxacillin,46915,47002
+J01CF05,Flucloxacillin,2192,2042
+J01CR,"Komb. af penicilliner, incl. beta-lactamase inhib.",32309,20791
+J01CR02,Amoxicillin og beta-lactamaseinhibitor,32303,20788
+J01D,Andre beta-lactam antibakterika,588,482
+J01DB,"Cephalosporiner, 1. generation",113,84
+J01DB01,Cefalexin,113,84
+J01DC,"Cephalosporiner, 2. generation",378,340
+J01DC02,Cefuroxim,378,340
+J01DD,"Cephalosporiner, 3. generation",47,28
+J01DD01,Cefotaxim,0,0
+J01DD02,Ceftazidim,19,14
+J01DD04,Ceftriaxon,28,14
+J01DF,Monobactamer,30,20
+J01DF01,Aztreonam,30,20
+J01DH,Carbapenemer,27,13
+J01DH02,Meropenem,27,13
+J01E,Sulfonamider og trimethoprim,29835,27273
+J01EA,Trimethoprim og derivater,13590,12669
+J01EA01,Trimethoprim,13590,12669
+J01EB,Sulfonamider med kort virkningstid,17434,15689
+J01EB02,Sulfamethizol,17434,15689
+J01EE,Sulfonamid og trimethoprim incl. derivater i komb.,29,33
+J01EE01,Sulfamethoxazol og trimethoprim,29,33
+J01F,"Macrolider, lincosamider og streptograminer",77157,32672
+J01FA,Macrolider,74084,29667
+J01FA01,Erythromycin,1885,734
+J01FA06,Roxithromycin,26160,16538
+J01FA09,Clarithromycin,14024,8273
+J01FA10,Azithromycin,33673,4657
+J01FF,Lincosamider,3379,3259
+J01FF01,Clindamycin,3379,3259
+J01G,Aminoglycosid antibakterika,79,79
+J01GB,Andre aminoglycosider,79,79
+J01GB01,Tobramycin,72,70
+J01GB03,Gentamicin,7,9
+J01M,Quinolon antibakterika,17201,13189
+J01MA,Fluorochinoloner,17201,13189
+J01MA02,Ciprofloxacin,15749,11986
+J01MA12,Levofloxacin,11,9
+J01MA14,Moxifloxacin,1502,1246
+J01XB,Polymyxiner,187,159
+J01XB01,Colistin,187,159
+J01XC,Steroid antibakterika,136,100
+J01XC01,Fusidinsyre,136,100
+J01XE,Nitrofuran-derivater,9737,8992
+J01XE01,Nitrofurantoin,9737,8992
+J01XX08,Linezolid,22,29
+J02A,Antimykotika til systemisk brug,30425,29496
+J02AC,Triazol- og tetrazolderivater,30422,29493
+J02AC01,Fluconazol,28914,27879
+J02AC02,Itraconazol,1646,1743
+J02AC03,Voriconazol,22,21
+J04A,Stoffer til behandling af tuberculose,283,259
+J04AB,Antibiotika,279,256
+J04AB02,Rifampicin,279,256
+J04AK,Andre stoffer til behandling af tuberculose,16,18
+J04AK02,Ethambutol,16,18
+J04B,Midler til behandling af lepra,246,237
+J04BA,Midler til behandling af lepra,246,237
+J04BA02,Dapson,246,237
+J05A,Direkte virkende antivirale midler,45517,42547
+J05AB,Nucleosider og nucleotider excl. revers transcriptase-hæmmere,44955,42524
+J05AB01,Aciclovir,33408,31395
+J05AB09,Famciclovir,62,55
+J05AB11,Valaciclovir,12043,11635
+J05AH,Neuraminidase-inhibitorer,586,24
+J05AH02,Oseltamivir,586,24
+J06B,Immunoglobuliner,29,8
+J06BA,"Immunoglobuliner, normal human",10,5
+J06BB02,Tetanus immunoglobulin,0,0
+J07A,Bacterielle vacciner,17956,20173
+J07AE,Cholera vacciner,912,22
+J07AE01,"Cholera, inaktiveret, hele celler",912,22
+J07AH,Meningokok vacciner,316,109
+J07AH08,"Meningococcus a,c,y,w-135, tetravalent renset polysacc. antigen konj.",281,79
+J07AH09,"Meningococcus b, multikomponent vaccine",50,41
+J07AJ,Pertussis vacciner,5,6
+J07AJ52,"Pertusiss, renset antigen, komb. med toxoider",5,6
+J07AL,Pneumokok vacciner,15595,20003
+J07AL01,"Pneumococcus, purified polysaccharides antigen",10720,8769
+J07AL02,"Pneumococcus, purified polysacc. antigen conj.",7760,12953
+J07AM,Tetanus vacciner,35,13
+J07AM51,"Tetanus toxoid, komb. med difteri toxoid",35,13
+J07AP,Tyfus vacciner,1282,20
+J07AP01,"Tyfus, oral, levende attenueret",973,10
+J07AP03,"Tyfus, renset polysaccharid antigen",313,10
+J07B,Virale vacciner,13922,10771
+J07BA,Encephalitis vacciner,1489,3043
+J07BA01,"Encephalitis, tick borne, inaktiveret, hele virus",1103,2989
+J07BA02,"Encephalitis, japansk, inaktiveret, hele virus",387,54
+J07BB,Influenza vacciner,116,6
+J07BB**,(Ufuldstændig ATC-kode),50,0
+J07BB02,"Influenza, renset antigen",66,6
+J07BC,Hepatitis vacciner,4923,2037
+J07BC01,"Hepatitis b, renset antigen",731,506
+J07BC02,"Hepatitis a, inaktiveret, hel virus",1967,446
+J07BC20,"Hepatitis vacciner, kombinationer",2272,1097
+J07BG,Rabies vacciner,93,11
+J07BG01,"Rabies, inaktiveret, hele virus",93,11
+J07BH,Rota virus diarrhea vacciner,75,62
+J07BH01,"Rota virus, levende attenueret",70,56
+J07BH02,"Rota virus, pentavalent, levende, reassorted",5,6
+J07BK,Varicella zoster vacciner,288,240
+J07BK01,"Varicella, levende attenueret",197,153
+J07BK02,"Zoster virus, levende attenueret",91,87
+J07BL,Gul feber vacciner,552,22
+J07BL01,"Gul feber, levende attenueret",552,22
+J07BM,Papillomavirus-vacciner,6789,5434
+J07BM03,"Papillomavirus (human type 6, 11, 16, 18, 31, 33, 45, 52,58)",6789,5434
+J07C,"Bacterielle og virale vacciner, kombinerede",6,0
+J07CA,"Bacterielle og virale vacciner, kombinerede",6,0
+L01*,n/a,130,101
+L01**,n/a,130,101
+L01****,(Ufuldstændig ATC-kode),130,101
+L01A,Alkyleringsmidler,10,13
+L01AA,Kvælstofsennepsgas-analoger,10,13
+L01AA01,Cyclophosphamid,9,13
+L01B,Antimetabolitter,417,385
+L01BC,Pyrimidin-analoger,411,382
+L01BC52,"Fluoruracil, kombinationer",408,381
+L01F,Monoklonale antistoffer og antistof-lægemiddel-konjugater,0,0
+L01FG,Vaskulær endotelial vækstfaktor (vegf/vegfr) hæmmere,0,0
+L01FG01,Bevacizumab,0,0
+L01X,Andre antineoplastiske stoffer,71,74
+L01XD04,Aminolevulinsyre,0,0
+L01XX,Andre neoplastiske stoffer,67,69
+L01XX05,Hydroxycarbamid,67,69
+L02A,Hormoner og beslægtede stoffer,1111,824
+L02AB,Gestagener,10,8
+L02AB02,Medroxyprogesteron,7,7
+L02AE,Gonadotropin-releasing hormon analoger,1101,816
+L02AE01,Buserelin,584,375
+L02AE02,Leuprorelin,56,49
+L02AE03,Goserelin,79,62
+L02AE04,Triptorelin,398,337
+L02B,Hormon-antagonister og lign. stoffer,868,873
+L02BA,Anti-østrogener,213,236
+L02BA01,Tamoxifen,213,236
+L02BB,Anti-androgener,191,186
+L02BB03,Bicalutamid,189,184
+L02BG,Aromatase inhibitorer,463,451
+L02BG03,Anastrozol,18,27
+L02BG04,Letrozol,427,411
+L02BG06,Exemestan,18,13
+L04A,Immunsuppressiva,19054,17977
+L04AA,Selektive immunsuppressiva,118,115
+L04AA06,Mycophenolsyre,118,115
+L04AB,Tumor necrosis factor alpha (tnf-alfa) hæmmere,73,65
+L04AB01,Etanercept,42,37
+L04AB04,Adalimumab,30,28
+L04AC,Interleukinhæmmere,38,34
+L04AC05,Ustekinumab,38,34
+L04AD,Calcineurinhæmmere,55,60
+L04AD01,Ciclosporin,48,46
+L04AD02,Tacrolimus,7,14
+L04AK,Dihydroorotat dehydrogenase (dhodh) hæmmere,38,38
+L04AK01,Leflunomid,38,38
+L04AX,Andre immunosuppressiva,18745,17682
+L04AX01,Azathioprin,4478,4269
+L04AX03,Methotrexat,14238,13390
+L04AX07,Dimethylfumarat,37,35
+M01AA,Butylpyrazolidiner,164,178
+M01AA01,Phenylbutazon,164,178
+M01AB,Eddikesyre-derivater og beslægtede stoffer,22278,21403
+M01AB05,Diclofenac,18474,17800
+M01AB08,Etodolac,2835,2651
+M01AB15,Ketorolac,34,38
+M01AB55,"Diclofenac, kombinationer",985,957
+M01AC,Oxicamer,528,181
+M01AC01,Piroxicam,431,0
+M01AC02,Tenoxicam,31,36
+M01AC06,Meloxicam,59,141
+M01AE01,Ibuprofen,0,0
+M01AE02,Naproxen,15880,14779
+M01AE11,Tiaprofensyre,55,44
+M01AE14,Dexibuprofen,4957,4693
+M01AG,Fenamater,980,837
+M01AG02,Tolfenamsyre,980,837
+M01AH,Coxibs,820,764
+M01AH01,Celecoxib,460,397
+M01AH05,Etoricoxib,360,367
+M01AX01,Nabumeton,47,40
+M02AA15,Diclofenac,0,0
+M03A,"Muskelrelaxantia, perifert virkende midler",42,39
+M03AB,Cholin-derivater,0,0
+M03AB01,Suxamethon,0,0
+M03AC,Andre kvaternære ammoniumforbindelser,0,0
+M03AC09,Rocuroniumbromid,0,0
+M03AC11,Cisatracurium,0,0
+M03AX,"Andre muskelrelaxantia, perifert virkende",42,39
+M03AX01,Botulinum toxin,42,39
+M03B,"Muskelrelaxantia, centralt virkende midler",34446,33517
+M03BB,"Oxazol-, thiazin-, triazin-derivater",21572,20899
+M03BB03,Chlorzoxazon,21572,20899
+M03BX,"Andre muskelrelaxantia, centralt virkende",13260,12986
+M03BX01,Baclofen,9109,8917
+M03BX02,Tizanidin,5055,4930
+M04A,Midler mod arthritis urica,48949,48401
+M04AA,"Midler, der hæmmer urinsyreproduktionen",45930,45302
+M04AA01,Allopurinol,45097,44392
+M04AA03,Febuxostat,859,932
+M04AB,"Midler, der øger urinsyreudskillelsen",321,292
+M04AB01,Probenecid,316,290
+M04AC,Midler uden virkning på urinsyre-metabolismen,4516,4533
+M04AC01,Colchicin,4516,4533
+M05B,Midler med virkning på knoglestruktur og mineralisering,75198,72596
+M05BA,Bisphosphonater,70227,66496
+M05BA04,Alendronsyre,67578,63983
+M05BA06,Ibandronsyre,2317,2191
+M05BA07,Risedronsyre,385,355
+M05BB,"Bisphosphonater, kombinationer",167,151
+M05BB03,Alendronsyre og colecalciferol,167,151
+M05BX,Andre midler med virkning på knoglestruktur og mineralisering,4886,6013
+M05BX04,Denosumab,4886,6013
+M09A,Andre midler mod forstyrrelser i det muskulo-skeletale system,46,61
+M09AX,Andre midler mod forstyrrelser i det muskulo-skeletale system,46,61
+M09AX01,Hyaluronsyre,46,61
+N01A,"Anæstetika, generelle",8,7
+N01AB,Halogenerede kulbrinter,0,0
+N01AB08,Sevofluran,0,0
+N01AH02,Alfentanil,0,0
+N01AH03,Sufentanil,0,0
+N01AH06,Remifentanil,0,0
+N01AX,Andre generelle anæstetika,8,6
+N01AX13,Dinitrogenoxid,0,0
+N01AX14,Esketamin,7,6
+N01BB02,Lidocain,0,0
+N01BB20,Kombinationer,0,0
+N01BB52,"Lidocain, kombinationer",0,0
+N01BX,Andre lokalanæstetika,18,15
+N01BX04,Capsaicin,18,15
+N02AA,Naturlige opiumalkaloider,83230,80317
+N02AA01,Morphin,48139,48150
+N02AA03,Hydromorphon,37,23
+N02AA05,Oxycodon,39273,35764
+N02AA55,Oxycodon og naloxon,250,234
+N02AB,Phenylpiperidin-derivater,8345,8087
+N02AB02,Pethidin,100,12
+N02AB03,Fentanyl,8250,8076
+N02AE,Oripavine-derivater,8575,8444
+N02AE01,Buprenorphin,8575,8444
+N02AG,Opioider i komb. med antispasmodika,1887,1775
+N02AG01,Morphin og antispasmodika,64,42
+N02AG02,Ketobemidon og antispasmodika,1824,1733
+N02AJ06,Codein og paracetamol,9247,8699
+N02AX,Andre opioider,82787,79912
+N02AX02,Tramadol,81526,78673
+N02AX06,Tapentadol,1336,1310
+N02BA01,Acetylsalicylsyre,5017,4435
+N02BA51,"Acetylsalicylsyre, komb. excl. psykoleptika",0,0
+N02BA75,"Salicylamid, kombinationer med psykoleptika",1723,1657
+N02BE01,Paracetamol,0,0
+N02BE51,"Paracetamol, kombinationer excl. psykoleptika",741,641
+N02BF,Gabapentinoider,85174,84989
+N02BF01,Gabapentin,52642,52337
+N02BF02,Pregabalin,34347,34390
+N02BG,Andre analgetika og antipyretika,581,651
+N02BG10,Cannabinoider,581,651
+N02C,Midler mod migræne,50587,47691
+N02CA,Ergot-alkaloider,88,32
+N02CA52,"Ergotamin, kombinationspræparater",75,20
+N02CA72,Ergotamin i kombination med psykoleptika,13,12
+N02CC,Selektive 5ht(1)-receptor-agonister,50401,47607
+N02CC01,Sumatriptan,36859,36266
+N02CC02,Naratriptan,127,163
+N02CC03,Zolmitriptan,2871,1194
+N02CC04,Rizatriptan,6674,6655
+N02CC05,Almotriptan,186,157
+N02CC06,Eletriptan,4533,4395
+N02CC07,Frovatriptan,296,353
+N02CX,Andre midler mod migræne,132,77
+N02CX01,Pizotifen,78,73
+N03A,Antiepileptika,73197,71859
+N03AA,Barbiturater og derivater,1870,1874
+N03AA02,Phenobarbital,889,871
+N03AA03,Primidon,985,1005
+N03AB,Hydantoin-derivater,156,157
+N03AB02,Phenytoin,156,157
+N03AD,Succinimid-derivater,110,103
+N03AD01,Ethosuximid,110,103
+N03AE,Benzodiazepin-derivater,5290,5137
+N03AE01,Clonazepam,5290,5137
+N03AF,Carboxamid-derivater,10389,9913
+N03AF01,Carbamazepin,5687,5395
+N03AF02,Oxcarbazepin,4020,3855
+N03AF03,Rufinamid,209,215
+N03AF04,Eslicarbazepin,547,529
+N03AG,Fedtsyre-derivater,11803,11518
+N03AG01,Valproinsyre,11672,11390
+N03AG04,Vigabatrin,181,170
+N03AX,Andre antiepileptika,51507,50818
+N03AX09,Lamotrigin,36495,35992
+N03AX11,Topiramat,4363,4306
+N03AX14,Levetiracetam,11731,11512
+N03AX15,Zonisamid,1159,1174
+N03AX17,Stiripentol,39,42
+N03AX18,Lacosamid,1500,1492
+N03AX22,Perampanel,475,492
+N03AX23,Brivaracetam,473,489
+N03AX24,Cannabidiol,505,440
+N04A,Anticholinerge stoffer,4145,4089
+N04AA,Tertiære aminer med kulstofkæde,2219,1880
+N04AA02,Biperiden,1926,1613
+N04AA04,Procyclidin,304,273
+N04AB,"Ethere, kemisk beslægtet med antihistaminer",2241,2254
+N04AB02,Orphenadrin (chlorid),2241,2254
+N04B,Dopaminerge stoffer,30506,30511
+N04BA,Dopa og dopa-derivater,12742,12562
+N04BA02,Levodopa og decarboxylase-hæmmer,12048,11854
+N04BA03,"Levodopa, decarboxylase-hæmmer og comt-hæmmer",1136,1128
+N04BB,Adamantan-derivater,323,340
+N04BB01,Amantadin,323,340
+N04BC,Dopamin-agonister,21245,21207
+N04BC01,Bromocriptin,18,17
+N04BC04,Ropinirol,2336,2249
+N04BC05,Pramipexol,18600,18673
+N04BC06,Cabergolin,8,8
+N04BC07,Apomorphin,68,59
+N04BC09,Rotigotin,433,409
+N04BD,Monoamin-oxidase type b hæmmere,2097,1922
+N04BD01,Selegilin,931,835
+N04BD02,Rasagilin,1123,1039
+N04BD03,Safinamid,53,52
+N04BX,Andre dopaminerge stoffer,350,371
+N04BX01,Tolcapon,5,7
+N04BX02,Entacapon,345,364
+N05A,Antipsykotika,94375,92245
+N05AB,Phenothiazin med piperazin-struktur,441,288
+N05AB03,Perphenazin,301,270
+N05AB04,Prochlorperazin,142,19
+N05AC,Phenothiazin med piperidin-struktur,92,91
+N05AC01,Periciazin,92,91
+N05AD,Butyrophenon-derivater,2970,3071
+N05AD01,Haloperidol,2718,2832
+N05AD03,Melperon,119,118
+N05AD05,Pipamperon,140,127
+N05AD08,Droperidol,0,0
+N05AE,Indol-derivater,1284,1305
+N05AE03,Sertindol,182,187
+N05AE04,Ziprasidon,805,797
+N05AE05,Lurasidon,301,324
+N05AF,Thioxanthen-derivater,12970,12325
+N05AF01,Flupentixol,2284,2123
+N05AF03,Chlorprothixen,7990,7553
+N05AF05,Zuclopenthixol,2991,2930
+N05AG,Diphenylbutylpiperidin-derivater,372,352
+N05AG02,Pimozid,372,352
+N05AH,"Diazepiner, oxazepiner, thiazepiner og oxepiner",61216,59440
+N05AH02,Clozapin,2890,2871
+N05AH03,Olanzapin,12306,12160
+N05AH04,Quetiapin,47713,46096
+N05AH05,Asenapin,12,12
+N05AL,Benzamider,752,762
+N05AL01,Sulpirid,192,178
+N05AL05,Amisulprid,560,586
+N05AN,Lithium,7489,7232
+N05AN01,Lithium,7489,7232
+N05AX,Andre antipsykotika,20623,20679
+N05AX08,Risperidon,10568,10506
+N05AX12,Aripiprazol,9099,9200
+N05AX13,Paliperidon,1303,1310
+N05AX15,Cariprazin,41,45
+N05AX16,Brexpiprazol,36,48
+N05B,Anxiolytika,57223,54009
+N05BA,Benzodiazepin-derivater,53234,50363
+N05BA01,Diazepam,10893,10706
+N05BA02,Chlordiazepoxid,2015,2243
+N05BA04,Oxazepam,27844,25945
+N05BA06,Lorazepam,1649,1614
+N05BA08,Bromazepam,2605,2378
+N05BA09,Clobazam,1798,1702
+N05BA12,Alprazolam,7575,6893
+N05BB,Diphenylmethan-derivater,3827,3455
+N05BB01,Hydroxyzin,3827,3455
+N05BE,Azaspirodecanedion-derivater,640,613
+N05BE01,Buspiron,640,613
+N05C,Hypnotika og sedativa,120097,111709
+N05CD,Benzodiazepin-derivater,9041,8730
+N05CD02,Nitrazepam,2039,1847
+N05CD05,Triazolam,2135,1908
+N05CD08,Midazolam,4902,5012
+N05CF,Benzodiazepin-relaterede midler,77988,69666
+N05CF01,Zopiclon,48626,43089
+N05CF02,Zolpidem,29981,27097
+N05CH,Melatoninreceptor-agonister,37787,37659
+N05CH01,Melatonin,37787,37659
+N06A,Antidepressiva,303315,291132
+N06AA,Non-selektive monoamin re-optagelse inhibitorer,33890,32132
+N06AA02,Imipramin,2216,2087
+N06AA04,Clomipramin,1903,1814
+N06AA09,Amitriptylin,21821,20653
+N06AA10,Nortriptylin,9458,9123
+N06AA16,Dosulepin,260,234
+N06AB,Selektive serotonin re-optagelse inhibitorer,170121,162285
+N06AB03,Fluoxetin,7184,6253
+N06AB04,Citalopram,57498,53838
+N06AB05,Paroxetin,8011,7813
+N06AB06,Sertralin,81685,79298
+N06AB08,Fluvoxamin,47,49
+N06AB10,Escitalopram,16499,15903
+N06AF,"Monoamin-oxidase hæmmere, non-selektive",302,299
+N06AF01,Isocarboxazid,302,299
+N06AG,Monoamin-oxidase type a hæmmere,69,59
+N06AG02,Moclobemid,69,59
+N06AX,Andre antidepressiva,120802,116635
+N06AX03,Mianserin,5727,5518
+N06AX11,Mirtazapin,50288,47011
+N06AX12,Bupropion,702,612
+N06AX16,Venlafaxin,34349,33604
+N06AX18,Reboxetin,206,202
+N06AX21,Duloxetin,27986,27756
+N06AX22,Agomelatin,3120,2996
+N06AX26,Vortioxetin,6066,6231
+N06B,"Psykostimulantia, midler for adhd og nootropika",45362,45507
+N06BA,Centralt virkende sympatomimetika,45360,45506
+N06BA01,Amfetamin,27,26
+N06BA02,Dexamfetamin,689,732
+N06BA04,Methylphenidat,30407,30214
+N06BA07,Modafinil,1215,1206
+N06BA09,Atomoxetin,7819,7979
+N06BA12,Lisdexamfetamin,7807,8127
+N06D,Midler mod demens,19658,19384
+N06DA,Anticholinesteraser,14281,14038
+N06DA02,Donepezil,11411,11254
+N06DA03,Rivastigmin,2269,2195
+N06DA04,Galantamin,729,709
+N06DX,Andre midler mod demens,7008,6950
+N06DX01,Memantin,7008,6950
+N07A,Parasympatomimetika,751,740
+N07AA,Anticholinesteraser,751,740
+N07AA02,Pyridostigmin,751,740
+N07BA03,Vareniclin,6385,5996
+N07BB,Midler mod alkoholafhængighed,8347,8445
+N07BB01,Disulfiram,5101,4857
+N07BB03,Acamprosat,860,1067
+N07BB04,Naltrexon,2467,2631
+N07BB05,Nalmefen,33,30
+N07BC,Midler mod opioidafhængighed,7466,7252
+N07BC01,Buprenorphin,254,264
+N07BC02,Methadon,6886,6697
+N07BC51,"Buprenorphin, komb.",346,310
+N07CA01,Betahistin,2982,2939
+N07CA03,Flunarizin,181,184
+N07X,Andre midler med virkn. på nervesystemet,569,570
+N07XX,Andre midler med virkning på nervesystemet,569,570
+N07XX02,Riluzol,198,220
+N07XX04,Natriumoxybat,98,93
+N07XX06,Tetrabenazin,252,238
+N07XX11,Pitolisant,20,20
+P01A,Midler mod amøbe- og andre protozo-sygdomme,21316,19348
+P01AB,Nitroimidazol-derivater,21316,19348
+P01AB01,Metronidazol,21316,19348
+P01B,Malariamidler,27250,15072
+P01BA,Aminochinoliner,5595,4420
+P01BA02,Hydroxychloroquin,5595,4420
+P01BB,Biguanider,10757,108
+P01BB51,Proguanil og atovaquon,10757,108
+P01BC,Methanolquinoliner,10945,10564
+P01BC01,Quinin,10945,10564
+P02C,Antinematode-midler,31593,28852
+P02CA,Benzimidazol-derivater,31591,24711
+P02CA01,Mebendazol,31591,24711
+P03AA,Svovlholdige midler,387,329
+P03AA**,(Ufuldstændig ATC-kode),387,329
+R01AB,"Sympatomimetika, komb. excl. corticosteroider",98,46
+R01AB06,Xylometazolin,98,46
+R01AD,Corticosteroider,140938,209882
+R01AD01,Beclomethason,2420,3642
+R01AD05,Budesonid,10788,13437
+R01AD08,Fluticason,16832,22670
+R01AD09,Mometason,62055,77013
+R01AD11,Triamcinolon,757,978
+R01AD12,Fluticasonfuroat,36056,65308
+R01AD58,"Fluticason, kombinationer",14981,31305
+R01AX,Andre midler mod sygdomme i næsehulen,2750,2885
+R01AX03,Ipratropiumbromid,2750,2885
+R02AX01,Flurbiprofen,0,0
+R03A,Adrenergika til inhalation,272311,236616
+R03AC,Selektive beta-2-adrenoceptor agonister,170668,133258
+R03AC02,Salbutamol,105042,77686
+R03AC03,Terbutalin,50568,40828
+R03AC12,Salmeterol,4872,4588
+R03AC13,Formoterol,14529,13247
+R03AC18,Indacaterol,3028,2752
+R03AC19,Olodaterol,520,502
+R03AK,"Adrenergika komb.m. corticosteroider/andre midler, ex. antikolinergika",110573,104463
+R03AK06,Salmeterol og fluticason,21535,20235
+R03AK07,Formoterol og budesonid,60747,56583
+R03AK08,Formoterol og beclometason,15326,15176
+R03AK10,Vilanterol og fluticasonfuroat,9341,8923
+R03AK11,Formoterol og fluticason,4791,4614
+R03AL,Adrenergika komb m antikolinergika inkl 3-stof komb m corticosteroider,48367,46790
+R03AL01,Fenoterol og ipratropiumbromid,3318,3100
+R03AL02,Salbutamol og ipratropiumbromid,1110,939
+R03AL03,Vilanterol og umeclidiniumbromid,10525,10139
+R03AL04,Indacaterol og glycopyrroniumbromid,10319,9551
+R03AL05,Formoterol og aclidiniumbromid,1009,925
+R03AL06,Olodaterol og tiotropiumbromid,12814,12197
+R03AL07,Formoterol og glycopyrroniumbromid,259,303
+R03AL08,"Vilanterol, umeclidiniumbromid og fluticasonfuroat",4278,4289
+R03AL09,"Formoterol, glycopyrroniumbromid og beclometason",7313,7594
+R03B,"Andre midler mod obstruktiv lungesygdom, inhalation",114569,100674
+R03BA,Glucocorticoider,80068,68557
+R03BA01,Beclomethason,5061,4356
+R03BA02,Budesonid,48378,43150
+R03BA05,Fluticason,20894,15603
+R03BA07,Mometason,665,578
+R03BA08,Ciclesonid,5524,5273
+R03BB,Antikolinergika,36648,34046
+R03BB01,Ipratropiumbromid,392,340
+R03BB04,Tiotropiumbromid,30468,28244
+R03BB05,Aclidiniumbromid,891,835
+R03BB06,Glycopyrroniumbromid,2004,1848
+R03BB07,Umeclidiniumbromid,3004,2861
+R03C,Adrenergika til systemisk brug,820,223
+R03CC,Selektive beta-2-adrenoceptor agonister,819,222
+R03CC02,Salbutamol,769,189
+R03CC12,Bambuterol,50,33
+R03D,Andre systemiske midler mod obstruktiv lungesygdom,21156,21723
+R03DA,Xanthiner,949,880
+R03DA04,Theophyllin,949,880
+R03DC,Leukotrien-receptor antagonister,20162,20773
+R03DC01,Zafirlukast,95,47
+R03DC03,Montelukast,20069,20726
+R03DX,Andre systemiske midler mod obstruktiv lungesygdom,207,206
+R03DX07,Roflumilast,207,206
+R05CB13,Dornase alfa (desoxiribonuclease),328,306
+R05D,"Antitussiva, excl. komb. m. expectorantia",39126,20832
+R05DA,Opiumalkaloider og derivater,39126,20832
+R05DA04,Codein,35356,20083
+R05DA09,Dextromethorphan,4064,816
+R05F,Antitussiva og expectorantia i kombination,25,9
+R05FA,Opiumderivater og expectorantia,25,9
+R05FA02,Opiumderivater og expectorantia,25,9
+R06AA,Aminoalkyl-ethere,1873,720
+R06AA02,Diphenhydramin,1698,531
+R06AA04,Clemastin,175,189
+R06AD,Phenothiazin-derivater,18302,16596
+R06AD02,Promethazin,18302,16596
+R06AE07,Cetirizin,0,0
+R06AE09,Levocetirizin,2929,5102
+R06AX26,Fexofenadin,0,0
+R06AX27,Desloratadin,0,0
+R06AX29,Bilastin,1155,1934
+S01AA,Antibiotika,82501,62495
+S01AA01,Chloramphenicol,52344,44272
+S01AA12,Tobramycin,6321,4189
+S01AA13,Fusidinsyre,26562,15841
+S01AA26,Azithromycin,509,420
+S01AA27,Cefuroxim,0,0
+S01AA30,Kombinationer af forskellige antibiotika,166,141
+S01AD,Antivirale midler,64,661
+S01AD03,Aciclovir,64,661
+S01AE,Fluoroquinoloner,2825,1949
+S01AE03,Ciprofloxacin,2507,1657
+S01AE05,Levofloxacin,221,194
+S01AE07,Moxifloxacin,139,130
+S01B,Antiinflammatoriske stoffer,24714,22444
+S01BA,"Corticosteroider, usammensatte",14505,14243
+S01BA01,Dexamethason,11229,11164
+S01BA02,Hydrocortison,1615,1739
+S01BA04,Prednisolon,2377,2041
+S01BA05,Triamcinolon,0,0
+S01BC,"Antiinflammatoriske midler, non-steroide",14679,12303
+S01BC03,Diclofenac,7804,6850
+S01BC05,Ketorolac,5086,3999
+S01BC10,Nepafenac,1705,1352
+S01BC11,Bromfenac,162,178
+S01C,Antiinflammatorika og antiinfektiva i kombination,17315,14932
+S01CA,Corticosteroider og antiinfectiva i kombination,17315,14932
+S01CA01,Dexamethason og antiinfectiva,17315,14932
+S01E,Antiglaucom-midler og miotika,61550,58809
+S01EA,Sympatomimetika til glaucombehandling,2770,2652
+S01EA03,Apraclonidin,110,88
+S01EA05,Brimonidin,2685,2576
+S01EB,Parasympatomimetika,459,395
+S01EB51,"Pilocarpin, kombinationer",456,393
+S01EC,Carbo-anhydrase inhibitorer,11227,10843
+S01EC01,Acetazolamid,1003,735
+S01EC03,Dorzolamid,4161,4144
+S01EC04,Brinzolamid,3884,3757
+S01EC54,"Brinzolamid, kombinationer",2460,2443
+S01ED,Beta-blokerende midler,33153,31829
+S01ED01,Timolol,5830,5569
+S01ED02,Betaxolol,183,169
+S01ED51,"Timolol, kombinationer",27391,26331
+S01EE,Prostaglandin-analoger,31783,29979
+S01EE01,Latanoprost,24656,23289
+S01EE03,Bimatoprost,2458,2323
+S01EE04,Travoprost,1789,1679
+S01EE05,Tafluprost,2983,2762
+S01F,Mydriatika og cycloplegica,2022,2137
+S01FA,Antikolinergika,2022,2137
+S01FA01,Atropin,41,47
+S01FA04,Cyclopentolat,1404,1598
+S01FA06,Tropicamid,596,518
+S01FA56,"Tropicamid, kombinationer",0,0
+S01GA,Sympatomimetika anvendt som dekongestanter,1634,5591
+S01GA51,"Naphazolin, kombinationer",1634,5591
+S01GX06,Emedastin,1952,7129
+S01GX09,Olopatadin,17573,54594
+S01HA01,Cocain,0,0
+S01XA**,(Ufuldstændig ATC-kode),87,91
+S01XA18,Ciclosporin,63,57
+S01XA20,Kunstig tårevæske og andre indifferente midler,0,0
+S02A,Antiinfectiva,7396,2894
+S02AA,Antiinfectiva,7396,2894
+S02AA15,Ciprofloxacin,7396,2894
+S02B,Corticosteroider,373,343
+S02BA,Corticosteroider,373,343
+S02BA08,Fluocinolonacetonid,373,343
+S02C,Corticosteroider og antiinfectiva i kombination,24500,16397
+S02CA,Corticosteroider og antiinfectiva i kombination,24500,16397
+S02CA02,Flumetason og antiinfectiva,375,222
+S02CA03,Hydrocortison og antiinfectiva,7320,5305
+S02CA05,Fluocinolonacetonid og antiinfectiva,3239,2205
+S02CA06,Dexamethason og antiinfectiva,13967,8907
+S03C,Corticosteroider og antiinfectiva i kombination,11374,9497
+S03CA,Corticosteroider og antiinfectiva i kombination,11374,9497
+S03CA01,Dexamethason og antiinfectiva,2234,1643
+S03CA04,Hydrocortison og antiinfectiva,9194,7894
+V01A,Allergener,7245,6505
+V01AA,Allergenekstrakter,7245,6505
+V01AA02,Græspollen,4699,4215
+V01AA03,Husstøvmider,2028,1907
+V01AA05,Træpollen,1765,1519
+V01AA07,Insekter,375,266
+V01AA11,Dyr,224,199
+V03A,Alle andre terapeutiske produkter,186,168
+V03AB25,Flumazenil,0,0
+V03AC,Jern-chelaterende midler,10,8
+V03AC01,Deferoxamin,10,8
+V03AE,Midler t. behandl. af hyperkaliæmi og hyperphosphatæmi,120,100
+V03AE01,Polystyrensulfonat,87,62
+V03AE02,Sevelamer,22,31
+V03AE04,Calciumacetat og magnesiumcarbonat,9,5
+V03AF,Afgiftningsmidler ved cytostatikabehandling,54,53
+V03AF04,Calciumlevofolinat,54,53
+V03AN,Medicinske gasser,0,0
+V03AN01,Oxygen,0,0
+V04C,Andre diagnostika,6,8
+V04CX04,Mannitol,0,0
+V07AB**,(Ufuldstændig ATC-kode),0,0
+V08A,"Røntgenkontrastmidler, ioderede",14,12
+V08AB,"Vandopl.,nefrotrope,lavosm. røntgenkontrastmidl.",14,12
+V08AB02,Iohexol,0,0
+V08AB05,Iopromid,14,12
+V08AB09,Iodixanol,0,0
+V08BA02,Bariumsulfat uden suspensionsmidler,0,0
+V08C,Kontrastmidler til magnetisk resonans imaging,0,0
+V08CA,Paramagnetiske kontrastmidler,0,0
+V08CA01,Gadopentetinsyre,0,0
+V08CA02,Gadoterinsyre,0,0
+V08CA04,Gadoteridol,0,0
+V08CA09,Gadobutrol,0,0
