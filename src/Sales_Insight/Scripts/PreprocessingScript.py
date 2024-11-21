@@ -159,6 +159,19 @@ print('Pharmacy total sales btw 2010 and 2019 for Zessly: ', sum(PharmacyDfYearA
 
 
 # %% [markdown]
+# #### Add type column to mergedHospitalPharmacyDfYearSorted
+
+# %%
+hospitalDfYearSorted['Type'] = 'Hospital'
+PharmacyDfYearSorted['Type'] = 'Pharmacy'
+mergedHospitalPharmacyDfYearAndSortedWithTypes = pd.concat([hospitalDfYearSorted, PharmacyDfYearSorted], ignore_index=True)
+
+# Add the 'Type' column to the 2nd column
+cols = mergedHospitalPharmacyDfYearAndSortedWithTypes.columns.tolist()
+cols = cols[:1] + cols[-1:] + cols[1:-1]
+mergedHospitalPharmacyDfYearAndSortedWithTypes = mergedHospitalPharmacyDfYearAndSortedWithTypes[cols]
+
+# %% [markdown]
 # #### Define a dataset with data only from Central Apoteket (main pharmacy next to central station)
 
 # %%
