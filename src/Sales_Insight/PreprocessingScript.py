@@ -159,6 +159,17 @@ print('Pharmacy total sales btw 2010 and 2019 for Zessly: ', sum(PharmacyDfYearA
 
 
 # %% [markdown]
+# #### sort data into ATC5 code L04AC05
+
+# %%
+DfYearAndL04AC05SortedZessly = mergedHospitalPharmacyDfYearAndZesslySorted
+DfYearAndL04AC05SortedRemsima = mergedHospitalPharmacyDfYearAndRemsimaSorted
+DfYearAndL04AC05SortedRemicade = mergedHospitalPharmacyDfYearAndRemicadeSorted
+DfYearAndL04AC05SortedInflectra = mergedHospitalPharmacyDfYearAndInflectraSorted
+
+mergedDfYearAndL04AC05Sorted = pd.concat([DfYearAndL04AC05SortedZessly, DfYearAndL04AC05SortedRemsima, DfYearAndL04AC05SortedRemicade, DfYearAndL04AC05SortedInflectra], ignore_index=True)
+
+# %% [markdown]
 # #### Add type column to mergedHospitalPharmacyDfYearSorted
 
 # %%
@@ -242,6 +253,16 @@ mergedHospitalPharmacyDfYearAndZesslySortedWithTypes = pd.concat([hospitalDfYear
 
 # Pivot the data
 pivot_df_zessly = mergedHospitalPharmacyDfYearAndZesslySortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+
+# %% [markdown]
+# #### Draw stacked column chart of total sales of L04AC05 in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+DfYearAndL04AC05SortedZessly['Type'] = 'Zessly'
+DfYearAndL04AC05SortedRemsima['Type'] = 'Remsima'
+DfYearAndL04AC05SortedRemicade['Type'] = 'Remicade'
+DfYearAndL04AC05SortedInflectra['Type'] = 'Indlectra'
+DfYearAndL04AC05SortedWithTypes = pd.concat([DfYearAndL04AC05SortedZessly, DfYearAndL04AC05SortedInflectra, DfYearAndL04AC05SortedRemsima, DfYearAndL04AC05SortedRemicade], ignore_index=True)
 
 # %% [markdown]
 # #### Draw scatter, line, bubble, or combo plot to show relationship between sold stelara over time between 2010 and 2019 in central pharmacy
