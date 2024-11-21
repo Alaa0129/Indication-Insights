@@ -109,12 +109,54 @@ hospitalDfYearSorted = hospitalDf[(hospitalDf['Year Month (after 2000)'] >= 1001
 PharmacyDfYearSorted = pharmacyDf[(pharmacyDf['Year Month (after 2000)'] >= 1001) & (pharmacyDf['Year Month (after 2000)'] <= 1912)]
 mergedHospitalPharmacyDfYearSorted = pd.concat([hospitalDfYearSorted, PharmacyDfYearSorted], ignore_index=True)
 
+#Stelara
 hospitalDfYearAndStelaraSorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Stelara'] == True]
 PharmacyDfYearAndStelaraSorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Stelara'] == True]
 mergedHospitalPharmacyDfYearAndStelaraSorted = pd.concat([hospitalDfYearAndStelaraSorted, PharmacyDfYearAndStelaraSorted], ignore_index=True)
 
-print('Hospital total sales btw 2010 and 2019: ', sum(hospitalDfYearAndStelaraSorted['Volume']))
-print('Pharmacy total sales btw 2010 and 2019: ', sum(PharmacyDfYearAndStelaraSorted['Volume']))
+print('Hospital total sales btw 2010 and 2019 for Stelara: ', sum(hospitalDfYearAndStelaraSorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Stelara: ', sum(PharmacyDfYearAndStelaraSorted['Volume']))
+
+#Cimzia
+hospitalDfYearAndCimziaSorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Cimzia'] == True]
+PharmacyDfYearAndCimziaSorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Cimzia'] == True]
+mergedHospitalPharmacyDfYearAndCimziaSorted = pd.concat([hospitalDfYearAndCimziaSorted, PharmacyDfYearAndCimziaSorted], ignore_index=True)
+
+print('Hospital total sales btw 2010 and 2019 for Cimzia: ', sum(hospitalDfYearAndCimziaSorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Cimzia: ', sum(PharmacyDfYearAndCimziaSorted['Volume']))
+
+#Inflectra
+hospitalDfYearAndInflectraSorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Inflectra'] == True]
+PharmacyDfYearAndInflectraSorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Inflectra'] == True]
+mergedHospitalPharmacyDfYearAndInflectraSorted = pd.concat([hospitalDfYearAndInflectraSorted, PharmacyDfYearAndInflectraSorted], ignore_index=True)
+
+print('Hospital total sales btw 2010 and 2019 for Inflectra: ', sum(hospitalDfYearAndInflectraSorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Inflectra: ', sum(PharmacyDfYearAndInflectraSorted['Volume']))
+
+#Remicade
+hospitalDfYearAndRemicadeSorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Remicade'] == True]
+PharmacyDfYearAndRemicadeSorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Remicade'] == True]
+mergedHospitalPharmacyDfYearAndRemicadeSorted = pd.concat([hospitalDfYearAndRemicadeSorted, PharmacyDfYearAndRemicadeSorted], ignore_index=True)
+
+print('Hospital total sales btw 2010 and 2019 for Remicade: ', sum(hospitalDfYearAndRemicadeSorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Remicade: ', sum(PharmacyDfYearAndRemicadeSorted['Volume']))
+
+#Remsima
+hospitalDfYearAndRemsimaSorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Remsima'] == True]
+PharmacyDfYearAndRemsimaSorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Remsima'] == True]
+mergedHospitalPharmacyDfYearAndRemsimaSorted = pd.concat([hospitalDfYearAndRemsimaSorted, PharmacyDfYearAndRemsimaSorted], ignore_index=True)
+
+print('Hospital total sales btw 2010 and 2019 for Remsima: ', sum(hospitalDfYearAndRemsimaSorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Remsima: ', sum(PharmacyDfYearAndRemsimaSorted['Volume']))
+
+#Zessly
+hospitalDfYearAndZesslySorted = hospitalDfYearSorted[hospitalDfYearSorted['Product_Zessly'] == True]
+PharmacyDfYearAndZesslySorted = PharmacyDfYearSorted[PharmacyDfYearSorted['Product_Zessly'] == True]
+mergedHospitalPharmacyDfYearAndZesslySorted = pd.concat([hospitalDfYearAndZesslySorted, PharmacyDfYearAndZesslySorted], ignore_index=True)
+
+print('Hospital total sales btw 2010 and 2019 for Zessly: ', sum(hospitalDfYearAndZesslySorted['Volume']))
+print('Pharmacy total sales btw 2010 and 2019 for Zessly: ', sum(PharmacyDfYearAndZesslySorted['Volume']))
+
 
 # %% [markdown]
 # #### Define a dataset with data only from Central Apoteket (main pharmacy next to central station)
@@ -131,16 +173,62 @@ PharmacyDfYearAndStelaraSorted['Type'] = 'Pharmacies'
 mergedHospitalPharmacyDfYearAndStelaraSortedWithTypes = pd.concat([hospitalDfYearAndStelaraSorted, PharmacyDfYearAndStelaraSorted], ignore_index=True)
 
 # Pivot the data
-pivot_df = mergedHospitalPharmacyDfYearAndStelaraSortedWithTypes.pivot_table(index='Year Month (after 2000) in Datetime', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+pivot_df_stelara = mergedHospitalPharmacyDfYearAndStelaraSortedWithTypes.pivot_table(index='Year Month (after 2000) in Datetime', columns='Type', values='Volume', aggfunc='sum').fillna(0)
 
-# Plot the stacked column chart
-# pivot_df.plot(kind='bar', stacked=True, figsize=(25, 10))
-# plt.xticks(rotation=90)
-# plt.title('Total Sales of Stelara in hospitals and pharmacies from 2010 to 2019')
-# plt.ylabel('Volume')
-# plt.xlabel('Year Month (after 2000) in Datetime')
-# plt.legend(title='Type')
-# plt.show()
+# %% [markdown]
+# #### Draw stacked column chart of total sales of Cimzia in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+hospitalDfYearAndCimziaSorted['Type'] = 'Hospitals'
+PharmacyDfYearAndCimziaSorted['Type'] = 'Pharmacies'
+mergedHospitalPharmacyDfYearAndCimziaSortedWithTypes = pd.concat([hospitalDfYearAndCimziaSorted, PharmacyDfYearAndCimziaSorted], ignore_index=True)
+
+# Pivot the data
+pivot_df_cimzia = mergedHospitalPharmacyDfYearAndCimziaSortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+
+# %% [markdown]
+# #### Draw stacked column chart of total sales of Inflectra in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+hospitalDfYearAndInflectraSorted['Type'] = 'Hospitals'
+PharmacyDfYearAndInflectraSorted['Type'] = 'Pharmacies'
+mergedHospitalPharmacyDfYearAndInflectraSortedWithTypes = pd.concat([hospitalDfYearAndInflectraSorted, PharmacyDfYearAndInflectraSorted], ignore_index=True)
+
+# Pivot the data
+pivot_df_inflectra = mergedHospitalPharmacyDfYearAndInflectraSortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+
+# %% [markdown]
+# #### Draw stacked column chart of total sales of Remicade in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+hospitalDfYearAndRemicadeSorted['Type'] = 'Hospitals'
+PharmacyDfYearAndRemicadeSorted['Type'] = 'Pharmacies'
+mergedHospitalPharmacyDfYearAndRemicadeSortedWithTypes = pd.concat([hospitalDfYearAndRemicadeSorted, PharmacyDfYearAndRemicadeSorted], ignore_index=True)
+
+# Pivot the data
+pivot_df_remicade = mergedHospitalPharmacyDfYearAndRemicadeSortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+
+# %% [markdown]
+# #### Draw stacked column chart of total sales of Remsima in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+hospitalDfYearAndRemsimaSorted['Type'] = 'Hospitals'
+PharmacyDfYearAndRemsimaSorted['Type'] = 'Pharmacies'
+mergedHospitalPharmacyDfYearAndRemsimaSortedWithTypes = pd.concat([hospitalDfYearAndRemsimaSorted, PharmacyDfYearAndRemsimaSorted], ignore_index=True)
+
+# Pivot the data
+pivot_df_remsima = mergedHospitalPharmacyDfYearAndRemsimaSortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
+
+# %% [markdown]
+# #### Draw stacked column chart of total sales of Zessly in hospitals and pharmacies btw 2010 and 2019
+
+# %%
+hospitalDfYearAndZesslySorted['Type'] = 'Hospitals'
+PharmacyDfYearAndZesslySorted['Type'] = 'Pharmacies'
+mergedHospitalPharmacyDfYearAndZesslySortedWithTypes = pd.concat([hospitalDfYearAndZesslySorted, PharmacyDfYearAndZesslySorted], ignore_index=True)
+
+# Pivot the data
+pivot_df_zessly = mergedHospitalPharmacyDfYearAndZesslySortedWithTypes.pivot_table(index='Year Month (after 2000)', columns='Type', values='Volume', aggfunc='sum').fillna(0)
 
 # %% [markdown]
 # #### Draw scatter, line, bubble, or combo plot to show relationship between sold stelara over time between 2010 and 2019 in central pharmacy
@@ -151,14 +239,6 @@ meanValaues = centralPharmacy.groupby('Year Month (after 2000) in Datetime')['Vo
 
 # convert 'Year Month (after 2000)' and median_values to int
 print(meanValaues)
-
-# Plot the median values in a line plot
-# sns.set_theme(style="whitegrid")
-# plt.figure(figsize=(30, 6))
-# sns.lineplot(x='Year Month (after 2000) in Datetime', y='Volume', data=meanValaues)
-# plt.xticks(rotation=90)
-# plt.title('Average Sales of Stelara in the central pharmacy by month btw 2010 and 2019')
-# plt.show()
 
 # %% [markdown]
 # #### Show correlation between Volume and other feeatures
@@ -189,7 +269,5 @@ m2['Product_Zessly'] = m2['Product_Zessly'].astype(int)
 m2
 
 print(len(m2.columns))
-
-# m2.drop('Volume', axis=1).corrwith(m2.Volume).sort_values().plot(kind='barh', figsize=(15, 10))
 
 
