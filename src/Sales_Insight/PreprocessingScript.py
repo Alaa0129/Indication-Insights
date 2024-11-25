@@ -46,8 +46,8 @@ print(len(merged_df_no_Dups))
 # #### Divide the dataset into two subdatasets: Hospital and Pharmacy
 
 # %%
-hospitalDf = merged_df_no_Dups[~merged_df_no_Dups['Account Description'].str.contains('Apotek', case=False)]
-pharmacyDf = merged_df_no_Dups[merged_df_no_Dups['Account Description'].str.contains('Apotek', case=False)]
+hospitalDf = merged_df_no_Dups[~merged_df_no_Dups['Account Description'].str.contains('Apotek', case=False) & ~merged_df_no_Dups['Account Description'].str.contains('fyrkilden', case=False)]
+pharmacyDf = merged_df_no_Dups[merged_df_no_Dups['Account Description'].str.contains('Apotek', case=False) | merged_df_no_Dups['Account Description'].str.contains('fyrkilden', case=False)]
 
 print(len(hospitalDf))
 print(len(pharmacyDf))
