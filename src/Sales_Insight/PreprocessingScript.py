@@ -11,6 +11,9 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Set print options
+pd.set_option('display.max_columns', None)
+
 # %%
 pharDf = pd.read_csv('data_processed\sales_insights_pharmacy_cleaned.csv', delimiter=',')
 hospDf = pd.read_csv('data_processed\sales_insights_hospital_cleaned.csv', delimiter=',')
@@ -170,6 +173,29 @@ mergedHospitalPharmacyDfYearAndSortedWithTypes = pd.concat([hospitalDfYearSorted
 cols = mergedHospitalPharmacyDfYearAndSortedWithTypes.columns.tolist()
 cols = cols[:1] + cols[-1:] + cols[1:-1]
 mergedHospitalPharmacyDfYearAndSortedWithTypes = mergedHospitalPharmacyDfYearAndSortedWithTypes[cols]
+
+# %% [markdown]
+# #### Convert all string and boolean values to numericals
+
+# %%
+# convert all unique values in 'Type' to numbers
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Type'] = pd.factorize(mergedHospitalPharmacyDfYearAndSortedWithTypes['Type'])[0]
+
+# convert all unique values in 'WHO ATC 5 Code' to numbers
+mergedHospitalPharmacyDfYearAndSortedWithTypes['WHO ATC 5 Code'] = pd.factorize(mergedHospitalPharmacyDfYearAndSortedWithTypes['WHO ATC 5 Code'])[0]
+
+# convert all true false values to 1 and 0
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Hovedstaden'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Hovedstaden'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Midtjylland'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Midtjylland'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Nordjylland'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Nordjylland'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Sjælland'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Sjælland'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Syddanmark'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Region_Syddanmark'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Cimzia'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Cimzia'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Inflectra'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Inflectra'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Remicade'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Remicade'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Remsima'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Remsima'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Stelara'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Stelara'].astype(int)
+mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Zessly'] = mergedHospitalPharmacyDfYearAndSortedWithTypes['Product_Zessly'].astype(int)
 
 # %% [markdown]
 # #### Define a dataset with data only from Central Apoteket (main pharmacy next to central station)
