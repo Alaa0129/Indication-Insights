@@ -29,7 +29,7 @@ df_type_1 = df[df['Type'] == 1]
 X = df.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
 y = df['Volume'].values
 
-X_type_0 = df_type_0.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
+X_type_0 = df_type_0.values
 y_type_0 = df_type_0['Volume'].values
 
 
@@ -44,11 +44,11 @@ X_train_type_0, X_test_type_0, y_train_type_0, y_test_type_0 = train_test_split(
 # %%
 # oversampling for df_type_0
 ros = RandomOverSampler(random_state=42)
-X_resampled, y_resampled = ros.fit_resample(X_train_type_0, y_train_type_0)
+X_over, y_over = ros.fit_resample(X_train_type_0, y_train_type_0)
 
 # %%
 # make the resampled data into a dataframe
-hospital_df_resampled = pd.DataFrame(X_resampled, columns=df.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).columns)
+hospital_df_resampled = pd.DataFrame(X_over, columns=df.columns)
 
 print(len(hospital_df_resampled))
 print(len(df_type_1))
@@ -223,5 +223,18 @@ df_B05
 df_over_B05
 df_res_B05
 df_over_res_B05
+
+# %%
+X_train
+y_train
+
+X_over = oversampled_df.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
+y_over = oversampled_df['Volume'].values
+
+X_res = df_resampled.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
+y_res = df_resampled['Volume'].values
+
+X_res_over = oversampled_df_resampled.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
+y_res_over = oversampled_df_resampled['Volume'].values
 
 
