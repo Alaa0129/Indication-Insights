@@ -30,9 +30,6 @@ X_split_test_df = pd.DataFrame(X_split_test, columns=df.columns)
 X_train = X_split_train_df.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
 X_test = X_split_test_df.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
 
-
-# X_train_type_0, X_test_type_0, y_train_type_0, y_test_type_0 = train_test_split(X_type_0, y_type_0, test_size=0.2, random_state=42)
-
 # %% [markdown]
 # #### Add more random values to df
 
@@ -64,7 +61,6 @@ def create_resampled_dataframe(X_train, y_train, n_samples, df):
 df_resampled_20000 = create_resampled_dataframe(X_split_train, y_train, 20000, df)
 df_resampled_50000 = create_resampled_dataframe(X_split_train, y_train, 50000, df)
 df_resampled_100000 = create_resampled_dataframe(X_split_train, y_train, 100000, df)
-df_resampled_500000 = create_resampled_dataframe(X_split_train, y_train, 500000, df)
 
 # %% [markdown]
 # #### Show all dataframes after sampling etc
@@ -78,7 +74,6 @@ df_C05 = df[df['WHO ATC 5 Code'] == 0]
 df_20000_C05 = df_resampled_20000[df_resampled_20000['WHO ATC 5 Code'] == 0]
 df_50000_C05 = df_resampled_50000[df_resampled_50000['WHO ATC 5 Code'] == 0]
 df_100000_C05 = df_resampled_100000[df_resampled_100000['WHO ATC 5 Code'] == 0]
-df_500000_C05 = df_resampled_500000[df_resampled_500000['WHO ATC 5 Code'] == 0]
 
 df_c05_hospitals = df_C05[df_C05['Type'] == 0]
 df_c05_pharmacies = df_C05[df_C05['Type'] == 1]
@@ -91,10 +86,6 @@ df_50000_c05_pharmacies = df_50000_C05[df_50000_C05['Type'] == 1]
 
 df_100000_res_c05_hospitals = df_100000_C05[df_100000_C05['Type'] == 0]
 df_100000_res_c05_pharmacies = df_100000_C05[df_100000_C05['Type'] == 1]
-
-df_500000_res_c05_hospitals = df_500000_C05[df_500000_C05['Type'] == 0]
-df_500000_res_c05_pharmacies = df_500000_C05[df_500000_C05['Type'] == 1]
-
 
 print('df:')
 print('Total rows of L04AC05:', len(df_C05))
@@ -115,12 +106,6 @@ print('resampled 100k df:')
 print('Total rows of L04AC05:', len(df_100000_C05))
 print('Total rows of L04AC05 in hospitals:', len(df_100000_res_c05_hospitals))
 print('Total rows of L04AC05 in pharmacies:', len(df_100000_res_c05_pharmacies))
-print()
-print('resampled 500k df:')
-print('Total rows of L04AC05:', len(df_500000_C05))
-print('Total rows of L04AC05 in hospitals:', len(df_500000_res_c05_hospitals))
-print('Total rows of L04AC05 in pharmacies:', len(df_500000_res_c05_pharmacies))
-
 
 # %%
 # L04AB02 = 1
@@ -131,7 +116,6 @@ df_B02 = df[df['WHO ATC 5 Code'] == 1]
 df_20000_B02 = df_resampled_20000[df_resampled_20000['WHO ATC 5 Code'] == 1]
 df_50000_B02 = df_resampled_50000[df_resampled_50000['WHO ATC 5 Code'] == 1]
 df_100000_B02 = df_resampled_100000[df_resampled_100000['WHO ATC 5 Code'] == 1]
-df_500000_B02 = df_resampled_500000[df_resampled_500000['WHO ATC 5 Code'] == 1]
 
 df_b02_hospitals = df_B02[df_B02['Type'] == 0]
 df_b02_pharmacies = df_B02[df_B02['Type'] == 1]
@@ -144,9 +128,6 @@ df_50000_b02_pharmacies = df_50000_B02[df_50000_B02['Type'] == 1]
 
 df_100000_b02_hospitals = df_100000_B02[df_100000_B02['Type'] == 0]
 df_100000_b02_pharmacies = df_100000_B02[df_100000_B02['Type'] == 1]
-
-df_500000_b02_hospitals = df_500000_B02[df_500000_B02['Type'] == 0]
-df_500000_b02_pharmacies = df_500000_B02[df_500000_B02['Type'] == 1]
 
 print('df:')
 print('Total rows of L04AB02:', len(df_B02))
@@ -167,11 +148,6 @@ print('resampled 100k df:')
 print('Total rows of L04AB02:', len(df_100000_B02))
 print('Total rows of L04AB02 in hospitals:', len(df_100000_b02_hospitals))
 print('Total rows of L04AB02 in pharmacies:', len(df_100000_b02_pharmacies))
-print()
-print('resampled 500k df:')
-print('Total rows of L04AB02:', len(df_500000_B02))
-print('Total rows of L04AB02 in hospitals:', len(df_500000_b02_hospitals))
-print('Total rows of L04AB02 in pharmacies:', len(df_500000_b02_pharmacies))
 
 # %%
 # L04AB05 = 2
@@ -182,7 +158,6 @@ df_B05 = df[df['WHO ATC 5 Code'] == 2]
 df_20000_B05 = df_resampled_20000[df_resampled_20000['WHO ATC 5 Code'] == 2]
 df_50000_B05 = df_resampled_50000[df_resampled_50000['WHO ATC 5 Code'] == 2]
 df_100000_B05 = df_resampled_100000[df_resampled_100000['WHO ATC 5 Code'] == 2]
-df_500000_B05 = df_resampled_500000[df_resampled_500000['WHO ATC 5 Code'] == 2]
 
 df_b05_hospitals = df_B05[df_B05['Type'] == 0]
 df_b05_pharmacies = df_B05[df_B05['Type'] == 1]
@@ -195,9 +170,6 @@ df_50000_b05_pharmacies = df_50000_B05[df_50000_B05['Type'] == 1]
 
 df_100000_b05_hospitals = df_100000_B05[df_100000_B05['Type'] == 0]
 df_100000_b05_pharmacies = df_100000_B05[df_100000_B05['Type'] == 1]
-
-df_500000_b05_hospitals = df_500000_B05[df_500000_B05['Type'] == 0]
-df_500000_b05_pharmacies = df_500000_B05[df_500000_B05['Type'] == 1]
 
 print('df:')
 print('Total rows of L04AB05:', len(df_B05))
@@ -218,11 +190,6 @@ print('resampled 100k df:')
 print('Total rows of L04AB05:', len(df_100000_B05))
 print('Total rows of L04AB05 in hospitals:', len(df_100000_b05_hospitals))
 print('Total rows of L04AB05 in pharmacies:', len(df_100000_b05_pharmacies))
-print()
-print('resampled 500k df:')
-print('Total rows of L04AB05:', len(df_500000_B05))
-print('Total rows of L04AB05 in hospitals:', len(df_500000_b05_hospitals))
-print('Total rows of L04AB05 in pharmacies:', len(df_500000_b05_pharmacies))
 
 # %% [markdown]
 # #### Summarization of the dataframes we will use
@@ -239,8 +206,5 @@ y_res_50k = df_resampled_50000['Volume'].values
 
 X_res_100k = df_resampled_100000.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
 y_res_100k = df_resampled_100000['Volume'].values
-
-X_res_500k = df_resampled_500000.drop(['Volume', 'Account Description', 'Size', 'Year Month (after 2000) in Datetime', 'Value'], axis=1).values
-y_res_500k = df_resampled_500000['Volume'].values
 
 
